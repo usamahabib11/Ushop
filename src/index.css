@@ -1,0 +1,278 @@
+
+.background{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    padding: 7px;
+    justify-content: space-evenly;
+    
+}
+.Home{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    margin-left: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Home:hover{
+    color:rgb(222, 222, 222) ;
+    
+}
+.u{
+    font-size: 70px;
+    color: white;
+    margin-left: 30px;
+}
+.navbar{
+    text-decoration: none;
+    font-size: 24px;
+    color:white;
+   margin: 15px;
+   
+   display: flex;
+}
+ .search{
+    margin-left: 5px;
+    width: 510px;
+    height: 38px;
+    border-radius: 6px;
+    padding-left: 10px;
+} 
+.searchicon{
+    width: 23px;
+    height: 24px;
+    margin-left: -50px;
+}
+.sapphire{
+    color:wheat;
+    font-size: 40px;
+    margin-left:-25px;
+    
+    margin-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0px;
+}
+.loginlogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+}
+.baglogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+.dlogo{
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    
+}
+.space{
+    color: white;
+}
+.toplist{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.listso{
+    margin: 28px;
+    text-decoration: none;
+    margin-top: 4px;
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.listso:hover{
+    color: rgb(255, 212, 212);
+}
+.slt{
+    font-size: 18px;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.suitslist{
+    display: flex;
+justify-content: center;
+background-color:rgb(232, 232, 232);
+height: 230px;
+}
+.topsuitslist{
+    border-radius: 100px;
+    width: 135px;
+    height: 135px;
+    border: 3px solid plum;
+}
+
+.topsuitslist:hover{
+   scale: 1.1;
+    transition: 0.30s;
+}
+.toplistname{
+    margin-top: 75px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 33px;
+    margin-right: 15px;
+}
+
+.suitcarts1{
+    background-color:rgb(232, 232, 232);
+    border-radius: 100px;
+    height: 200px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+text-align: center;
+margin: 10px;
+margin-top: 20px;
+
+}
+
+.suittag{
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+.suittag:hover{
+    color: red;
+}
+.tagm{
+    margin-top: 10px;
+}
+.trending{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    color: rgb(20, 20, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.trending2{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(20, 20, 20);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Thr{
+    width: 240px;
+  margin-left: 488px;
+  margin-top: -7px;
+}
+.Thr2{
+    width: 180px;
+  margin-left: 520px;
+  margin-top: -7px;
+  color:black;
+}
+.shopimg{
+    width: 300px;
+}
+.shopimg:hover{
+    transition: 1s;
+    scale: 1.05;
+}
+.maindivcard{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cardtext{
+    text-decoration: none;
+}
+.carddiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+  margin-top: 30px;
+    
+}
+.cardtext1{
+    margin-top: 10px;
+    color: black;
+    font-size: 27px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.maindivcard2{
+    display: flex;
+flex-wrap: wrap;
+    justify-content: center;
+    
+    margin-top: 40px;
+}
+.carddiv2{
+    display: flex;
+
+    align-items: center;
+    
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    margin-top: 5px;
+    margin:15px;
+height: 400px;
+    
+}
+.cardtext2{
+    text-decoration: none;
+    
+    
+}
+.cardtext3{
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.shopimg2{
+    width: 270px;
+}
+.shopimg2:hover{
+    transition: 0.5s;
+    scale: 1.05;
+}
+.addcardbutton{
+    background-color: black;
+    margin-left: 120px;
+    margin-top: -38px;
+    color: white;
+    border-radius: 7px;
+}
+.cardprice{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: -58px;
+    margin-left: 80px;
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+.priceoffdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -356px;
+    margin-left: 180px;
+}
+.priceoff{
+    color: white;
+    font-size: 17px;
+}
+.priceoff1{
+    text-decoration: none;
+}
